@@ -96,16 +96,21 @@ Le projet est structuré autour de **3 dashboards Tableau** :
 1. Installer les dépendances Python :  
 ```bash
 pip install pandas openpyxl sqlite3
-
+```
 2. Préparer les données :
+```
 python scripts/excel_to_sqlite.py   # charger le fichier Excel dans SQLite
 python scripts/sql_to_excel.py      # récupérer le dataset filtré
+```
 
 3. Explorer le notebook : notebooks/01_data_cleaning.ipynb
-    Toutes les étapes de transformation et filtrage sont expliquées
-    Le dataset final pour Tableau est produit
+```
+   Toutes les étapes de transformation et filtrage sont expliquées
+   Le dataset final pour Tableau est produit
+```
 
-Visualiser les dashboards Tableau :
-    Les captures sont dans tableau_screenshots/
-    Pour un partage interactif, lien vers Tableau Public : [https://public.tableau.com/views/Project_Energy_EU_Story/Story1?:language=fr-FR&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link] 
+4. Visualiser les dashboards Tableau :
+-  Les captures sont dans tableau_screenshots/
+- [Lien vers Tableau Public](https://public.tableau.com/views/Project_Energy_EU_Story/Story1?:language=fr-FR&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
 
