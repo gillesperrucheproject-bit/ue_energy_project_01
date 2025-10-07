@@ -24,19 +24,21 @@ Le projet est construit pour démontrer :
 ## 📂 Contenu du repo
 
 energy-analysis-eu/
-├─ data/
-│ └─ sample/ # échantillon des données pour test
-├─ notebooks/
-│ └─ 01_data_cleaning.ipynb # préparation des données depuis Excel/SQLite
-├─ sql/
-│ └─ queries.sql # requêtes SQL utilisées pour filtrer/transformer
-├─ scripts/
-│ ├─ excel_to_sqlite.py # script original pour charger Excel dans SQLite
-│ └─ sql_to_excel.py # script pour récupérer le dataset final
-├─ tableau/screenshots/
-│ └─ dashboard1.png # captures d’écran des dashboards Tableau
-├─ README.md
-└─ .gitignore
+    data/
+        bdd_sqlite3/ # fichier de la base de donnée créer sur SQLite
+        raw/ # données brutes
+        processed/ # échantillon des données pour test
+    notebooks/
+        01_data_cleaning.ipynb # préparation des données depuis Excel/SQLite
+    scripts/
+        excel_to_sqlite.py # script original pour charger Excel dans SQLite
+        sql_to_excel.py # script pour récupérer le dataset final
+    tableau_screenshots/
+        eu_01.png # captures d’écran des dashboards Tableau
+        eu_02.png
+        eu_03.png
+    README.md
+    .gitignore
 
 
 > **Remarque :** Les fichiers de données brutes (`owid-energy-data.xlsx`) ne sont pas inclus pour éviter de partager des fichiers volumineux ou sensibles. Un échantillon est disponible dans `data/sample/`.
