@@ -31,7 +31,7 @@ energy-analysis-eu/
 ├─ sql/
 │ └─ queries.sql # requêtes SQL utilisées pour filtrer/transformer
 ├─ scripts/
-│ └─ excel_to_sqlite.py # script original pour charger Excel dans SQLite
+│ ├─ excel_to_sqlite.py # script original pour charger Excel dans SQLite
 │ └─ sql_to_excel.py # script pour récupérer le dataset final
 ├─ tableau/screenshots/
 │ └─ dashboard1.png # captures d’écran des dashboards Tableau
