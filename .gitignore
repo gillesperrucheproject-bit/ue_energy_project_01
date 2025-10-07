@@ -1,0 +1,14 @@
+# Logs
+*.log
+
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints
+
+# Données brutes
+data/raw/
+*.csv
+*.xlsx
