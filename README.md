@@ -22,7 +22,7 @@ Le projet est construit pour démontrer :
 ---
 
 ## 📂 Contenu du repo
-
+```
 energy-analysis-eu/
     data/
         bdd_sqlite3/ # fichier de la base de donnée créer sur SQLite
@@ -39,7 +39,7 @@ energy-analysis-eu/
         eu_03.png
     README.md
     .gitignore
-
+```
 
 > **Remarque :** Les fichiers de données brutes (`owid-energy-data.xlsx`) ne sont pas inclus pour éviter de partager des fichiers volumineux ou sensibles. Un échantillon est disponible dans `data/sample/`.
 
